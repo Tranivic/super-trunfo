@@ -1,0 +1,97 @@
+body {
+    font-family: 'Marcellus', serif;
+    min-height: 854px;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+    padding-top: 100px;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    color: #000000;
+    border: 15px solid #ffffff;
+    width: 800px;
+    height: 600px auto;
+    margin: auto;
+}
+
+.page-title {
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+button {
+    font-weight: bold;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #e0610c;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    height: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+button:hover {
+    background: #a3470a;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+h2 {
+    color: white;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.opcoes {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.resultado {
+    font-size: 50px;
+}
+
+.cartas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-style: bold;
+}
+
+.imagemCarta {
+    font-family: 'Marcellus', serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    color: #000000;
+    margin: auto 20px;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 0px;
+    border-radius: 0px;
+    object-fit: cover;
+}

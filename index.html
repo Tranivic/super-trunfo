@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Trunfo Dragões - Victor T.
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <h1 class="page-title">Trunfo Dragões</h1>
+        <button onclick="sortearCarta()" id="btnSortear">SORTEAR</button>
+        <div class="cartas">
+            <div id="imagemCartaJogador" class="imagemCarta"></div>
+            <div id="imagemCartaMaquina" class="imagemCarta"></div>
+        </div>
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="opcoes" id="opcoes"></div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="true">JOGAR</button>
+            <button type="button" id="btnResetar" onclick="resetar()" disabled="true">RESETAR</button>
+            <div class="resultado" id="resultado"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
