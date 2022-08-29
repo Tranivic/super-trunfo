@@ -8,7 +8,7 @@ Trata-se de um jogo simples de cartas feito em Javascript, onde o jogador escolh
 
 
 
-Você pode acessar a demonstração: [Aqui](https://a-uvic.github.io/super-trunfo/)
+Você pode acessar a demonstração: [Aqui](https://Tranivic.github.io/super-trunfo/)
 
 
 
